@@ -1,0 +1,1 @@
+rsync -rtv -e "ssh -i .ssh/mcs1_2" Documents/thingmakerMCServerplugin/build/libs/thingmakerMCServerplugin-1.0-SNAPSHOT.jar aaaathing@198.186.131.101:server1/plugins/thingmakerMCServerplugin.jar
