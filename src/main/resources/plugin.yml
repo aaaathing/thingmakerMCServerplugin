@@ -1,0 +1,5 @@
+name: thingmakerMCServerplugin
+version: '${version}'
+main: io.github.aaaathing.thingmakermcserverplugin.ThingmakerMCServerplugin
+api-version: '1.21'
+authors: [thingmaker (aaathing)]
