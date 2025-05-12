@@ -22,6 +22,7 @@ public class ThingmakerMCServerplugin extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         event.getPlayer().sendMessage(Component.text("Hello, " + event.getPlayer().getName() + "!"));
+        event.getPlayer().sendMessage(Component.text("To register, type /register and make your own password. The password will be used the next time you log in."));
     }
 
 }
